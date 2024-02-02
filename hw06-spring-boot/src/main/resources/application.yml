@@ -1,0 +1,16 @@
+logging:
+  level:
+    org:
+      example:
+        user: DEBUG
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  liquibase:
+    change-log: classpath:migrations/db.changelog-master.xml

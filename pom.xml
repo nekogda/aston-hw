@@ -20,6 +20,7 @@
     <modules>
         <module>hw03</module>
         <module>hw05-hibernate</module>
+        <module>hw06-spring-boot</module>
     </modules>
 
     <dependencyManagement>
